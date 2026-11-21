@@ -217,6 +217,7 @@ Security-relevant community and vendor MCP servers. General-purpose database, co
 
 ### Application security (AppSec)
 
+- :new: [Ironheights MCP](https://github.com/Frank-Masciopinto/ironheights) - Built into the Ironheights CLI via `ironheights mcp`; exposes `check_skill` (allow/blocked verdict before an agent installs a skill) and `tool_manifest_check` (MCP tool-description drift). Local, rule-based (Apache-2.0); early project that misses some plain-language attacks (own project).
 - :star: [Semgrep MCP](https://github.com/semgrep/semgrep) - Built into the maintained Semgrep CLI via `semgrep mcp`; lets coding agents run security scans directly.
 - :shield: [Snyk MCP](https://github.com/snyk/studio-mcp) - Official `snyk mcp` integration for code, dependency, IaC, container, secret, SBOM and package-health scans.
 - :new: [Snyk SAW MCP](https://github.com/snyk/saw-mcp) - Onboards DAST targets, configures authentication, runs scans and triages findings (official; Probely is now Snyk API & Web).
